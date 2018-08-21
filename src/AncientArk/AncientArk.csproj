@@ -22,7 +22,7 @@ Supported platforms: NET Standard 2.0</Description>
     <RepositoryType>git</RepositoryType>
     <AssemblyName>AncientArk</AssemblyName>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <NoWarn>1591;1572</NoWarn>
+    <NoWarn>1711;1573;1591;1572</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
