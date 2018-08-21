@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AncientArk", "src\AncientArk\AncientArk.csproj", "{B37FAA44-E9D5-4723-AFFE-B01C46BE5645}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AncientArk.Test", "test\AncientArk.Test\AncientArk.Test.csproj", "{D517059A-6675-42C2-8FDF-1D42B79D7B40}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B37FAA44-E9D5-4723-AFFE-B01C46BE5645} = {B37FAA44-E9D5-4723-AFFE-B01C46BE5645}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B37FAA44-E9D5-4723-AFFE-B01C46BE5645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37FAA44-E9D5-4723-AFFE-B01C46BE5645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37FAA44-E9D5-4723-AFFE-B01C46BE5645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37FAA44-E9D5-4723-AFFE-B01C46BE5645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D517059A-6675-42C2-8FDF-1D42B79D7B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D517059A-6675-42C2-8FDF-1D42B79D7B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D517059A-6675-42C2-8FDF-1D42B79D7B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D517059A-6675-42C2-8FDF-1D42B79D7B40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9623808-72B7-46CD-B736-7DCE7C6E0006}
+	EndGlobalSection
+EndGlobal
