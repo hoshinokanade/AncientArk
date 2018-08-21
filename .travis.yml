@@ -1,4 +1,15 @@
 language: csharp
+
 solution: AncientArk.sln
+
 mono: none
 dotnet: 2.1.4
+
+script:
+  - dotnet restore ./src/AncientArk/AncientArk.csproj
+  - dotnet build ./src/AncientArk/AncientArk.csproj -f netstandard2.0
+  - dotnet restore ./test/AncientArk.Test/AncientArk.Test.csproj
+  - dotnet build ./test/AncientArk.Test/AncientArk.Test.csproj
+
+notifications:
+  email: false  
