@@ -1,5 +1,9 @@
 # AncientArk
 
+[![Build Status](https://travis-ci.com/hoshinokanade/AncientArk.svg?branch=master)](https://travis-ci.com/hoshinokanade/AncientArk)
+
+
+
 AncientArk is a binary serializer to adapt to legacy data storage and data transfer protocols.
 It allows expression mappings of custom types.
 

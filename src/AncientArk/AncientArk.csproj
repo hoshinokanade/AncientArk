@@ -2,11 +2,30 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>latest</LangVersion>
+    
+    <Title>AncientArk</Title>
+    <PackageId>AncientArk</PackageId>
+    <Version>0.1.0</Version>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.0.0</FileVersion>
+    <Authors>Hoshinokanade</Authors>
+    <Company />
+    <Description>Binary serializer to adapt to legacy data storage and data transfer protocols
+
+Supported platforms: NET Standard 2.0</Description>
+    <PackageLicenseUrl>https://github.com/hoshinokanade/AncientArk/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/hoshinokanade/AncientArk</PackageProjectUrl>
+    <PackageTags>ancientark data transfer serializer</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/hoshinokanade/AncientArk</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <AssemblyName>AncientArk</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1591;1572</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Memory" Version="4.5.1" />
   </ItemGroup>
 
 </Project>

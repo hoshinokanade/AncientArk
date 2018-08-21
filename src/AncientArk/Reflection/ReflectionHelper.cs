@@ -28,7 +28,7 @@ namespace AncientArk
         private static readonly ConcurrentDictionary<ConstructorInfo, Delegate> funcCache = new ConcurrentDictionary<ConstructorInfo, Delegate>(new ConstructorInfoEqualityComparer());
 
         /// <summary>
-        /// Creates an instance of type T using the current <see cref="IObjectResolver"/>.
+        /// Creates an instance of type T
         /// </summary>
         /// <typeparam name="T">The type of instance to create.</typeparam>
         /// <param name="args">The constructor arguments.</param>
@@ -39,8 +39,7 @@ namespace AncientArk
         }
 
         /// <summary>
-        /// Creates an instance of the specified type without using the
-        /// current <see cref="IObjectResolver"/>.
+        /// Creates an instance of the specified type
         /// </summary>
         /// <param name="type">The type of instance to create.</param>
         /// <param name="args">The constructor arguments.</param>
