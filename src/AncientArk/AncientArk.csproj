@@ -6,8 +6,8 @@
     
     <Title>AncientArk</Title>
     <PackageId>AncientArk</PackageId>
-    <Version>0.1.0</Version>
-    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <Version>0.1.1</Version>
+    <AssemblyVersion>0.0.1.1</AssemblyVersion>
     <FileVersion>0.0.0.0</FileVersion>
     <Authors>Hoshinokanade</Authors>
     <Company />
@@ -23,6 +23,7 @@ Supported platforms: NET Standard 2.0</Description>
     <AssemblyName>AncientArk</AssemblyName>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1711;1573;1591;1572</NoWarn>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
